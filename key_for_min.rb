@@ -3,7 +3,6 @@
 
 def key_for_min_value(hash)
 ikea = {:chair => 25, :table => 85, :mattress => 450}
-key_for_min_value(ikea)
 lowest_key = nil
 lowest_value = nil
 hash.each do |key, value|
